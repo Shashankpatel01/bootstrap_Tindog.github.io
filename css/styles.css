@@ -1,0 +1,183 @@
+
+
+body{
+	/*font-family: Montserrat;*/
+}
+
+
+#title{
+	background-color: /*#ff4c68*/ #659DBD;
+}
+
+h1{
+	font-family: "Montserrat";
+	font-size: 3.2rem;
+	line-height: 1.5;
+	color: white;
+}
+
+.container-fluid{
+	padding:3% 15% 7%;
+}
+
+/*navigation bar*/
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+	font-family: "ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-family: montserrat-Light;
+	font-size: 1.2rem;
+
+}
+
+/*download buttons*/
+
+.download-button{
+	margin: 5% 3% 5% 0;
+
+}
+
+/*title image*/
+
+.logo-container{
+/*	text-align: center;*/
+	position: relative;
+}
+
+.title-image{
+	width: 60% ;
+	position: absolute;
+	transform: rotate(25deg);
+	right: 30%;
+	
+}
+
+@media (max-width: 1028px){
+
+	#title{
+		text-align: center;
+	}
+	.title-image{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+/*features section*/
+#features{
+	background-color: #fff;
+	position: relative;
+}
+
+.redglow{
+	margin: 0 0 1rem;
+	
+}
+.redglow:hover{
+	color: /*#ff0000*/ #659DBD;
+}
+
+.featurealign{
+	text-align: center;
+	padding: 0 40px;
+	margin: 6% 0%;
+}
+
+.mpzero{
+	margin: 0;
+}
+h3{
+	font-family: ubuntu;
+	font-weight: 200;
+}
+
+
+/*testimonials*/
+
+#testimonials{
+	text-align: center;
+	background-color: /*#ff4c68*/#659DBD ;
+	color: #fff;
+}
+h2{
+	font-family: nunito;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press{
+	background-color:/* #ff4c68*/ #659DBD;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 30px 20px;
+}
+
+.carousel-item{
+	padding: 6% 15%;
+}
+
+
+/*pricing section*/
+
+#pricing{
+	text-align: center;
+	padding: 6% 15%;
+}
+
+.pricing-card{
+	/*text-align: center;*/
+	padding: 5% 3%;
+	/*margin-bottom: 4%;*/
+}
+
+
+/*action section*/
+
+#cta{
+	padding:6% 15% 3%;
+	background-color:/*#ff4c68 */ #659DBD;
+	text-align: center;
+	font-family: nunito;
+}
+
+
+/*footer section*/
+
+#footer{
+	text-align: center;
+	padding: 6% 15%;
+
+}
+P{
+	margin: 0;
+}
+
+.footer-contact{
+	margin: 20px;
+	color: black;
+}
+
+.footer-contact:hover{
+	color: /*red*/ #659DBD;
+	/*transition: 0 0 10px red;*/
+}
